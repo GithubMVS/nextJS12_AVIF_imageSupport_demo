@@ -21,7 +21,7 @@ export default function Home() {
           <h1 className={styles.WhatsNew_title}>AVIF image format</h1>
           <p className={styles.WhatsNew_explenation}>Avif image format is a relative new image format that is really light. Now the nextJS built-in Image Optimization API now supports AVIF images, enabling 20% smaller images compared to WebP. Which accounts for better UX for the end user!</p>
           <ul className={styles.benefits}>
-            <Image src={checkMark} alt="checkMark" /><li className={styles.benefit}>Up to 85% lighter then jpg`s</li>
+            <Image src={checkMark} alt="checkMark" /><li className={styles.benefit}>Up to 80% lighter then jpg`s</li>
             <Image src={checkMark} alt="checkMark" /><li className={styles.benefit}>Are not supported on all major browsers (bad point)</li>
             <Image src={checkMark} alt="checkMark" /><li className={styles.benefit}>Can take longer to optimize as webP (bad point)</li>
           </ul>
